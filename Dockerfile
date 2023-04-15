@@ -1,9 +1,6 @@
 # Original: https://github.com/avivace/iosevka-docker/blob/master/Dockerfile
-
-# docker run -it -v $(pwd):/build iosevka ttf::iosevka-custom
-# Run example
-# 
-# docker run -v ./build:/build iosevka_build
+# how to build image
+# docker build -t iosevka_build .
 
 FROM debian:testing-slim
 

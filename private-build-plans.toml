@@ -1,0 +1,42 @@
+[buildPlans.iosevka]
+family = "Iosevka"
+spacing = "normal"
+serifs = "sans"
+no-cv-ss = true
+export-glyph-names = false
+
+[buildPlans.iosevka.variants.design]
+g = "double-storey"
+zero = "slashed-oval"
+two = "straight-neck"
+
+[buildPlans.iosevka.variants.italic]
+g = "single-storey-serifless"
+zero = "slashed-oval"
+
+[buildPlans.iosevka.weights.regular]
+shape = 400
+menu = 400
+css = 400
+
+[buildPlans.iosevka.weights.bold]
+shape = 800
+menu = 800
+css = 800
+
+[buildPlans.iosevka.widths.normal]
+shape = 600
+menu = 5
+css = "normal"
+
+[buildPlans.iosevka.slopes.upright]
+angle = 0
+shape = "upright"
+menu = "upright"
+css = "normal"
+
+[buildPlans.iosevka.slopes.italic]
+angle = 9
+shape = "italic"
+menu = "italic"
+css = "italic"

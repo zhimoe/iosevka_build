@@ -4,8 +4,10 @@ spacing = "normal"
 serifs = "sans"
 no-cv-ss = true
 export-glyph-names = false
+no-ligation = true
 
 [buildPlans.iosevka.variants.design]
+f = "serifless-crossbar-at-x-height"
 g = "double-storey"
 zero = "slashed-oval"
 two = "straight-neck"
@@ -36,7 +38,7 @@ menu = "upright"
 css = "normal"
 
 [buildPlans.iosevka.slopes.italic]
-angle = 9
+angle = 11
 shape = "italic"
 menu = "italic"
 css = "italic"
